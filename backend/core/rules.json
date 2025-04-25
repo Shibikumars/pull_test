@@ -1,0 +1,17 @@
+[
+    {
+      "name": "No eval",
+      "language": "javascript",
+      "pattern": "eval\\(",
+      "severity": "high",
+      "message": "Avoid using eval() due to security risks."
+    },
+    {
+      "name": "No debugger",
+      "language": "javascript",
+      "pattern": "debugger;",
+      "severity": "medium",
+      "message": "Remove debugger statements before production."
+    }
+  ]
+  
